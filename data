@@ -1,0 +1,5 @@
+├── data/
+│   ├── raw/
+│   │   └── housing_raw.csv
+│   └── processed/
+│       └── housing_clean.csv
