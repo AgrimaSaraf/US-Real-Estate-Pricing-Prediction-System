@@ -1,0 +1,6 @@
+import pandas as pd
+
+def engineer_features(df):
+    df['house_age'] = 2024 - df['year_built']
+    df = pd.get_dummies(df, columns=['zipcode'], drop_first=True)
+    return df
